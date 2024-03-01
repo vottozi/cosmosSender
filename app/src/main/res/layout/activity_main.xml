@@ -27,6 +27,16 @@
         android:layout_gravity="center_horizontal"/>
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnSelectMedia"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:text="Отправить файл"
+        app:cornerRadius="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"/>
+
+
+    <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_write_wish"
         android:layout_width="260dp"
         android:layout_height="60dp"
@@ -40,13 +50,24 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="12dp"
-        android:layout_marginVertical="20dp"
+        android:layout_marginVertical="16dp"
         android:hint="Write here"
         android:textColorHint="#63FFFFFF"
         android:textColor="@color/white"
         android:layout_marginTop="20dp"
         android:textAlignment="center"
         android:visibility="invisible"/>
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btnSend"-->
+<!--        android:layout_width="260dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:text="Отправить"-->
+<!--        android:layout_below="@id/btnRecord"-->
+<!--        app:cornerRadius="20dp"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:visibility="invisible"/>-->
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btn_send_wish"
